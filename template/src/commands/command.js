@@ -9,7 +9,7 @@ export class Command {
     return this.#taskRegistry;
   }
 
-  execute(...args) {
+  async execute(...args) {
     throw new Error('Override in child classes!');
   }
 }
